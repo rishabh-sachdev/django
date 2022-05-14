@@ -729,3 +729,8 @@ to remove usage of these features.
 
 * Support for the pre-Django 3.2 format of messages used by
   ``django.contrib.messages.storage.cookie.CookieStorage`` is removed.
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
